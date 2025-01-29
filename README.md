@@ -49,3 +49,11 @@ Process
 `mf` mark the file
 `mc` make the copy
 
+
+## Copying Directories
+
+Process
+
+Here's the solution I found, use vim's integration with the shell.
+
+`:!cp -r source target`
